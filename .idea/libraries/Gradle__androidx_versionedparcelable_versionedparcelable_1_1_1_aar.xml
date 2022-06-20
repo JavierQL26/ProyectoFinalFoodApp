@@ -1,13 +1,18 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d42b63d3eef01f517eb8b7f82920b9fc/transformed/versionedparcelable-1.1.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d42b63d3eef01f517eb8b7f82920b9fc/transformed/versionedparcelable-1.1.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d42b63d3eef01f517eb8b7f82920b9fc/transformed/versionedparcelable-1.1.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/d42b63d3eef01f517eb8b7f82920b9fc/transformed/versionedparcelable-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/e22e0ed82c766f995a4827f96bc7fc20/transformed/versionedparcelable-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/bd5c6b0b6dfa809d18dc1b5a88e35b18/transformed/versionedparcelable-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/3d4dbcf3d06c269ee255f0fa94e6a74e/transformed/versionedparcelable-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/8d6edc8b3517cda970aa9d2811931e17/transformed/versionedparcelable-1.1.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/8d6edc8b3517cda970aa9d2811931e17/transformed/versionedparcelable-1.1.1/res" />
+      <root url="jar://$PROJECT_DIR$/caches/transforms-3/8d6edc8b3517cda970aa9d2811931e17/transformed/versionedparcelable-1.1.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/d9085927216387af679d18b6f472bc0fc5c7cc81/versionedparcelable-1.1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/d9085927216387af679d18b6f472bc0fc5c7cc81/versionedparcelable-1.1.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

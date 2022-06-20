@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-common-ktx:20.1.1@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/493183c9cf593a893c51905d325c17da/transformed/jetified-firebase-common-ktx-20.1.1/res" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/98ac49b19ebc000b5b791665b47acf48/transformed/jetified-firebase-common-ktx-20.1.1/res" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/85abfdae6c6cdd50ee2a7fdce551d04d/transformed/jetified-firebase-common-ktx-20.1.1/res" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/85abfdae6c6cdd50ee2a7fdce551d04d/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/caches/transforms-3/85abfdae6c6cdd50ee2a7fdce551d04d/transformed/jetified-firebase-common-ktx-20.1.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/caches/modules-2/files-2.1/com.google.firebase/firebase-common-ktx/20.1.1/f744c080c46ac809bb0ef02e56399b9dbbbe4993/firebase-common-ktx-20.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

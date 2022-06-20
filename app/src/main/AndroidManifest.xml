@@ -1,38 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="foodapp">
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="foodapp">
 
-    <!-- Permisos para usar imagenes de internet-->
-    <uses-permission android:name="android.permission.INTERNET" />
+<!-- Permisos para usar imagenes de internet-->
+<uses-permission android:name="android.permission.INTERNET" />
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.FoodApp">
-        <activity
-            android:name="com.jql.foodapp.activities.FinActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.jql.foodapp.activities.PedidoActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.jql.foodapp.activities.ProductosRestauranteActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.jql.foodapp.activities.InicioActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.FoodApp">
+    <activity
+        android:name="com.jql.foodapp.activities.FinActivity"
+        android:exported="true" />
+    <activity
+        android:name="com.jql.foodapp.activities.PedidoActivity"
+        android:exported="true" />
+    <activity
+        android:name="com.jql.foodapp.activities.ProductosRestauranteActivity"
+        android:exported="true" />
+    <activity
+        android:name="com.jql.foodapp.activities.InicioActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.jql.foodapp.activities.MainActivity"
-            android:exported="true" />
-    </application>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name="com.jql.foodapp.activities.MainActivity"
+        android:theme="@style/Theme.FoodApp.NoActionBar"
+        android:exported="true" />
+
+    <activity
+        android:name="com.jql.foodapp.activities.LogInActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.jql.foodapp.activities.SignUpActivity"
+        android:exported="false" />
+</application>
 
 </manifest>

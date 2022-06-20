@@ -9,19 +9,19 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.ActionBar
 import androidx.recyclerview.widget.GridLayoutManager
-import com.jql.foodapp.adapter.ListaProductoAdapter
+import com.jql.foodapp.adapter.ProductosRestauranteAdapter
 import com.jql.foodapp.models.Producto
 import com.jql.foodapp.models.Restaurante
 import foodapp.databinding.ActivityProductosRestauranteBinding
 
-class ProductosRestauranteActivity : AppCompatActivity(), ListaProductoAdapter.ProductoListClickListener {
+class ProductosRestauranteActivity : AppCompatActivity(), ProductosRestauranteAdapter.ProductoListClickListener {
     private val enlace: ActivityProductosRestauranteBinding by lazy{
         ActivityProductosRestauranteBinding.inflate(layoutInflater)
     }
     private var listaProductosCarro: MutableList<Producto>? = null
     private var totalProductosCarro = 0
     private lateinit var listaProductos: List<Producto>
-    private lateinit var listaProductoAdapter: ListaProductoAdapter
+    private lateinit var productosRestauranteAdapter: ProductosRestauranteAdapter
 
     private val getResult =
         registerForActivityResult(
@@ -35,7 +35,7 @@ class ProductosRestauranteActivity : AppCompatActivity(), ListaProductoAdapter.P
         super.onCreate(savedInstanceState)
         setContentView(enlace.root)
 
-        val restauranteModel = intent?.getParcelableExtra<Restaurante>("Restaurante")
+        val restauranteModel = intent?.getSerializableExtra("Restaurante") as Restaurante?
 
         val actionBar: ActionBar? = supportActionBar
         actionBar?.title = restauranteModel?.nombre
@@ -60,8 +60,8 @@ class ProductosRestauranteActivity : AppCompatActivity(), ListaProductoAdapter.P
     }
     private fun initRecyclerView(productos: List<Producto>) {
         enlace.productosRecyclerView.layoutManager = GridLayoutManager(this, 2)
-        listaProductoAdapter = ListaProductoAdapter(productos, this)
-        enlace.productosRecyclerView.adapter =listaProductoAdapter
+        productosRestauranteAdapter = ProductosRestauranteAdapter(productos, this)
+        enlace.productosRecyclerView.adapter =productosRestauranteAdapter
     }
 
     override fun agregarAlCarroClickListener(producto: Producto) {

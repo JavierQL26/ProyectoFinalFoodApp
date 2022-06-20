@@ -1,8 +1,14 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Theme.FoodApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/yellow_logo</item>
-        <item name = "colorSecondary">@color/negro</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name = "colorSecondary">@color/colorSecundary</item>
     </style>
+    <style name="Theme.FoodApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.FoodApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.FoodApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

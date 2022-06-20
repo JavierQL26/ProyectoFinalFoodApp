@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">FoodApp</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_restaurante">Restaurantes</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_soporte">Soporte</string>
+    <string name="logout">Logout</string>
+    <string name="textview">TextView</string>
+    <string name="anadir_al_carrito">Añadir al carrito</string>
+    <string name="logo">Logo</string>
+    <string name="foto_del_producto">foto del producto</string>
+    <string name="foto_del_restaurante">foto del restaurante</string>
+    <string name="_1">1</string>
 </resources>

@@ -1,0 +1,3 @@
+com.google.firebase.ml.naturallanguage.translate
+raw translate_models_metadata
+xml rapid_response_client_defaults

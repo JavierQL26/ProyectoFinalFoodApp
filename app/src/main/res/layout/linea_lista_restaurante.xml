@@ -15,12 +15,14 @@
         app:cardCornerRadius="10dp"
         android:layout_margin="20dp"
         >
-        <ImageView android:id="@+id/imagen"
+
+        <ImageView
+            android:id="@+id/imagen"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_gravity="start"
             android:layout_margin="10dp"
-        />
+            android:contentDescription="@string/foto_del_restaurante" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,28 +38,32 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
-                android:textColor="@color/yellow_logo"
+                android:text="@string/textview"
+                android:textColor="@color/colorPrimary"
                 android:textSize="16sp"
                 android:textStyle="bold" />
-            <TextView android:id="@+id/tvDireccion"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                />
 
-            <TextView android:id="@+id/tvHorario"
+            <TextView
+                android:id="@+id/tvDireccion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                />
+                android:text="@string/textview"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvHorario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/textview"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
 
         </LinearLayout>

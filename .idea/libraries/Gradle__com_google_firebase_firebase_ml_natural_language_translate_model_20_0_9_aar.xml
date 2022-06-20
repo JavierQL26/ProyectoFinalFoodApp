@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-ml-natural-language-translate-model:20.0.9@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/caches/transforms-3/f2bf1d21fc3a5004e4bb1b1a8c9166ee/transformed/jetified-firebase-ml-natural-language-translate-model-20.0.9/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/f2bf1d21fc3a5004e4bb1b1a8c9166ee/transformed/jetified-firebase-ml-natural-language-translate-model-20.0.9/res" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/f2bf1d21fc3a5004e4bb1b1a8c9166ee/transformed/jetified-firebase-ml-natural-language-translate-model-20.0.9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/caches/modules-2/files-2.1/com.google.firebase/firebase-ml-natural-language-translate-model/20.0.9/3595118ed0ead1cee5178fbd6258f9199eb969a5/firebase-ml-natural-language-translate-model-20.0.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

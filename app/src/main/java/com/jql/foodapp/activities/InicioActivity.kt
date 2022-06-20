@@ -21,11 +21,9 @@ class InicioActivity : AppCompatActivity() {
         actionBar?.hide()
 
         //Bienvenida a la app con un delay de 2 segundos.
-        Handler(Looper.getMainLooper()).postDelayed(object : Runnable {
-            override fun run() {
-                startActivity(Intent(this@InicioActivity, MainActivity::class.java))
-                finish()
-            }
+        Handler(Looper.getMainLooper()).postDelayed({
+            startActivity(Intent(this@InicioActivity,LogInActivity::class.java))
+            finish()
         },2000)
     }
 }

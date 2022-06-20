@@ -9,16 +9,22 @@ import android.view.View
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.ActionBar
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
 import com.jql.foodapp.adapter.PedidoAdapter
+import com.jql.foodapp.models.Pedido
 import com.jql.foodapp.models.Restaurante
+import com.jql.foodapp.models.Usuario
 import foodapp.databinding.ActivityPedidoBinding
 
 class PedidoActivity : AppCompatActivity() {
     private val enlace: ActivityPedidoBinding by lazy{
         ActivityPedidoBinding.inflate(layoutInflater)
     }
+    private val db = FirebaseFirestore.getInstance()
     private var pedidoAdapter: PedidoAdapter? = null
     private var alDomicilio: Boolean = true
+    private var subTotalPrecio = 0f
 
     private val getResult =
         registerForActivityResult(
@@ -32,13 +38,43 @@ class PedidoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(enlace.root)
 
-        val restaurante: Restaurante? = intent.getParcelableExtra("Restaurante")
+        val restaurante : Restaurante? = intent.getSerializableExtra("Restaurante") as Restaurante?
         val actionbar: ActionBar? = supportActionBar
+
+        val auth : FirebaseAuth = FirebaseAuth.getInstance()
+        val emailUsuario = auth.currentUser?.email
+
+        lateinit var nombre : String
+        lateinit var direccion : String
+        lateinit var telefono :String
+        lateinit var apellidos : String
+
         actionbar?.title = restaurante?.nombre
         actionbar?.subtitle = restaurante?.direccion
         actionbar?.setDisplayHomeAsUpEnabled(true)
 
+
+        db.collection("Usuario").document(emailUsuario!!).get().addOnSuccessListener {
+            nombre = it.get("usuario.nombre") as String
+            direccion = it.get("usuario.direccion") as String
+            telefono = it.get("usuario.telefono") as String
+            apellidos = it.get("usuario.apellidos") as String
+        }
+
         enlace.botonConfimarPedido.setOnClickListener {
+            val usuario = Usuario(nombre,apellidos, direccion, emailUsuario, telefono)
+            val pedido = if(alDomicilio){
+                Pedido(restaurante?.productos!!.toList(),restaurante.costesEnvio, String.format("%.2f",
+                        subTotalPrecio))
+                }else{
+                    Pedido(
+                        restaurante?.productos!!.toList(), String.format("%.2f",
+                            subTotalPrecio))
+                }
+            db.collection("Pedido").document().set(
+                hashMapOf( "usuario" to usuario,
+                    "detallePedido" to pedido)
+            )
             botonConfimarPedidoButtonCLick(restaurante)
         }
 
@@ -68,15 +104,14 @@ class PedidoActivity : AppCompatActivity() {
     }
 
     private fun calcularPrecio(restaurante: Restaurante?) {
-        var subTotalPrecio = 0f
+        subTotalPrecio = 0f
         for(producto in restaurante?.productos!!) {
-            subTotalPrecio += producto.precio * producto.totalProductosCarro
-
+            subTotalPrecio += producto.precio?.toFloat()!! * producto.totalProductosCarro
         }
         enlace.tvSubtotalPrecio.text = String.format("%.2f €", subTotalPrecio)
         if(alDomicilio) {
-            enlace.tvCostesDeEnvioPrecio.text = String.format("%.2f €", restaurante.costes_envio?.toFloat())
-            subTotalPrecio += restaurante.costes_envio?.toFloat()!!
+            enlace.tvCostesDeEnvioPrecio.text = String.format("%.2f €", restaurante.costesEnvio?.toFloat())
+            subTotalPrecio += restaurante.costesEnvio?.toFloat()!!
         }
 
         enlace.tvTotalPrecio.text = String.format("%.2f €", subTotalPrecio)

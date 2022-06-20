@@ -1,5 +1,6 @@
 package com.jql.foodapp.adapter
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -35,7 +36,7 @@ class PedidoAdapter(private val listaProducto: List<Producto>?): RecyclerView.Ad
 
         fun bind(producto: Producto) {
             nombre.text = producto.nombre!!
-            precio.text = "Precio: " + String.format("%.2f €",producto?.precio * producto.totalProductosCarro)
+            precio.text = "Precio: " + String.format("%.2f €", producto.precio?.toFloat()!! * producto.totalProductosCarro)
             cantidad.text = "Cantidad :" + producto.totalProductosCarro
 
             Glide.with(imagenProducto)

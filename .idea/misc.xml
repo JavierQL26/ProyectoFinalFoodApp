@@ -28,6 +28,51 @@
         <entry key="..\:/Users/javip/AndroidStudioProjects/FoodAppInKotlin-main/app/src/main/res/layout/recycler_restautant_list_row.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/javip/AndroidStudioProjects/FoodAppInKotlin-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18" />
         <entry key="..\:/Users/javip/AndroidStudioProjects/FoodAppInKotlin-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.18" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.191" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/drawable/boton_estilo.xml" value="0.191" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/drawable/ic_add_circle.xml" value="0.191" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.191" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/drawable/ic_baseline_account_circle_25.xml" value="0.191" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/drawable/ic_baseline_contact_support_24.xml" value="0.191" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.191" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/drawable/ic_baseline_restaurant_menu_24.xml" value="0.1" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.191" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/drawable/ic_menu_camera.xml" value="0.191" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.191" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.191" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/drawable/ic_remove_circle.xml" value="0.191" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/drawable/logofoodapp.xml" value="0.191" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/drawable/side_nav_bar.xml" value="0.191" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/activity_fin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/activity_inicio.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/activity_log_in.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/activity_pedido.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/activity_productos_restaurante.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/activity_sign_in.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/activity_sing_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/fragment_gallery.xml" value="0.25" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/fragment_perfil.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/fragment_restaurante.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/fragment_slideshow.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/fragment_soporte.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/linea_lista_producto.xml" value="0.1" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/linea_lista_restaurante.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/linea_producto_pedido.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/layout/restaurantes_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/menu/main_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/menu/main_activity2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.191" />
+        <entry key="..\:/Users/javip/AndroidStudioProjects/ProyectoFinalFoodApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.191" />
         <entry key="..\:/Users/javip/OneDrive/Escritorio/FoodAppInKotlin-mainCopia/app/src/main/res/layout/activity_fin.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/javip/OneDrive/Escritorio/FoodAppInKotlin-mainCopia/app/src/main/res/layout/activity_inicio.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/javip/OneDrive/Escritorio/FoodAppInKotlin-mainCopia/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
